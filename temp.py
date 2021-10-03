@@ -38,6 +38,6 @@ df.tail(n=100) # para mirar los datos finales
 dataframe = df.drop(columns=['WordModernName2','WordProtoName1','WordProtoName2','SpellingAltv2', 'NotCognateWithMainWordInThisFamily'])
 
 
-
+# Exporta el dataframe en un archivo csv en el directorio definido con anterioridad.
 
 dataframe.to_csv('dataframe.csv')
